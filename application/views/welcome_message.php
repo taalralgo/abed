@@ -14,22 +14,24 @@
 <body>
 	<div class="main-container">
 		<header>
-			<h1><a href="<?= base_url() ?>">Elegant Press</a></h1>
+			<h1><a href="<?= base_url() ?>">ABED</a></h1>
 
-			<p id="tagline"><strong>Clean Website Template</strong></p>
+			<p id="tagline"><strong>Association de Bienfaisance pour l’Education et le Développement</strong></p>
 		</header>
 	</div>
 	<div class="main-container">
 		<div id="sub-headline">
 			<div class="tagline_left">
-				<p id="tagline2">Tel: 123 333 4444 | Mail: <a href="mailto:email@website.com">email@website.com</a>
-				</p>
+				<p id="tagline2">Tel: (+221) 77 517 40 94 | Email: <a href="mailto:cherifabdoulaziz@gmail.com">cherifabdoulaziz@gmail.com</a></p>
+				<p id="tagline2">Tel: (+221) 77 517 40 94</a></p>
+				<p id="tagline2">Tel: (+221) 70 654 57 72</a></p>
+				<p id="tagline2">Tel: (+221) 77 300 47 72</a></p>
 			</div>
 			<div class="tagline_right">
 				<form action="#" method="post">
 					<fieldset>
 						<legend>Site Search</legend>
-						<input type="text" value="Search Our Website&hellip;" onfocus="if (this.value == 'Search Our Website&hellip;') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search Our Website&hellip;';}" />
+						<input type="text" placeholder="Rechercher&hellip;" onfocus="if (this.value == 'Rechercher&hellip;') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Rechercher&hellip;';}" />
 						<input type="submit" name="go" id="go" value="Search" />
 					</fieldset>
 				</form>
@@ -41,8 +43,8 @@
 		<div id="nav-container">
 			<nav>
 				<ul class="nav">
-					<li class="active"><a href="<?= base_url() ?>">Homepage</a></li>
-					<li><a href="typo.html">Typography</a></li>
+					<li class="active"><a href="<?= base_url() ?>">Accueil</a></li>
+					<li><a href="typo.html">Blog</a></li>
 					<li><a href="#">Layouts</a>
 						<ul>
 							<li><a href="#">Sidebar</a>
@@ -54,7 +56,7 @@
 						</ul>
 					</li>
 					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="gallery.html">Galerie photo</a></li>
 					<li class="last"><a href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
@@ -98,7 +100,7 @@
 
 			<article class="box" id="home_featured21">
 				<div class="block">
-					<h2>Who Are We</h2>
+					<h2>Qui Sommes Nous</h2>
 
 					<p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget
 						facilis elit sagittis felisi eger id justo maurisus convallicitur. Dapiensociis temper donec
@@ -107,7 +109,7 @@
 					</p>
 				</div>
 				<div class="block">
-					<h2>Compatibility</h2>
+					<h2>Qu'est Ce Que Nous Faisons</h2>
 					<ul id="list">
 						<li>Dapiensociis temper donec auctortortis cumsan et curabitur.</li>
 						<li>Condis lorem loborttis leo.</li>
@@ -120,7 +122,7 @@
 
 				</div>
 				<div class="block last">
-					<h2>What We Do</h2>
+					<h2>Notre Emplacement</h2>
 
 					<p>Temperinte interdum sempus odio urna eget curabitur semper convallis nunc laoreet. Nullain convallis
 						ris elis vest liberos nis diculis feugiat in rutrum. Suspendreristibulumfaucibulum lobortor quis
@@ -157,21 +159,21 @@
 			<article id="home_featured2">
 				<ul>
 					<li>
-						<div class="imgholder"><a href="images/slide1.jpg" data-gal="prettyPhoto[featured]" title="First Featured Title"><img src="images/featured1.jpg" width="275" height="145" alt="" /></a></div>
+						<div class="imgholder"><a href="<?= base_url() ?>template/images/slide1.jpg" data-gal="prettyPhoto[featured]" title="First Featured Title"><img src="<?= base_url() ?>template/images/featured1.jpg" width="275" height="145" alt="" /></a></div>
 						<h4>First Featured Title</h4>
 
 						<p>Orciint erdum condimen terdum nulla mcorper elit nam curabitur laoreet met prae senean et iac
 							ulum. Metridiculis cons eque quis iaculum aenean nunc aenean.</p>
 					</li>
 					<li>
-						<div class="imgholder"><a href="images/slide2.jpg" data-gal="prettyPhoto[featured]" title="Second Featured Title"><img src="images/featured2.jpg" width="275" height="145" alt="" /></a></div>
+						<div class="imgholder"><a href="<?= base_url() ?>template/images/slide2.jpg" data-gal="prettyPhoto[featured]" title="Second Featured Title"><img src="<?= base_url() ?>template/images/featured2.jpg" width="275" height="145" alt="" /></a></div>
 						<h4>Second Featured Title</h4>
 
 						<p>Orciint erdum condimen terdum nulla mcorper elit nam curabitur laoreet met prae senean et iac
 							ulum. Metridiculis cons eque quis iaculum aenean nunc aenean.</p>
 					</li>
 					<li class="last">
-						<div class="imgholder"><a href="images/slide3.jpg" data-gal="prettyPhoto[featured]" title="Third Featured Title"><img src="images/featured3.jpg" width="275" height="145" alt="" /></a></div>
+						<div class="imgholder"><a href="<?= base_url() ?>template/images/slide3.jpg" data-gal="prettyPhoto[featured]" title="Third Featured Title"><img src="<?= base_url() ?>template/images/featured3.jpg" width="275" height="145" alt="" /></a></div>
 						<h4>Third Featured Title</h4>
 
 						<p>Orciint erdum condimen terdum nulla mcorper elit nam curabitur laoreet met prae senean et iac
@@ -190,7 +192,7 @@
 			<div class="container_12">
 				<div class="grid">
 					<article class="footbox">
-						<h2>From The Blog</h2>
+						<h2>Blog</h2>
 						<ul>
 							<li><a href="#">Lorem Ipsum Dolor</a><br />
 								Orciint erdum condimen terdum nulla mcorper elit nam curabitur...
@@ -204,7 +206,7 @@
 						</ul>
 					</article>
 					<article class="footbox last">
-						<h2>We Are Social!</h2>
+						<h2>Reseaux Sociaux!</h2>
 
 						<div id="social">
 							<a href="http://twitter.com/priteshgupta" class="s3d twitter"> Twitter <span class="icons twitter"></span> </a>
@@ -217,10 +219,10 @@
 					<article class="latestgallery">
 						<h2>Latest Work</h2>
 						<ul>
-							<li><a href="images/thumb.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="images/thumb.jpg" alt="" width="150" height="95" /></a></li>
-							<li><a href="images/thumb2.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="images/thumb2.jpg" alt="" width="150" height="95" /></a></li>
-							<li><a href="images/thumb3.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="images/thumb3.jpg" alt="" width="150" height="95" /></a></li>
-							<li><a href="images/thumb4.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="images/thumb4.jpg" alt="" width="150" height="95" /></a></li>
+							<li><a href="<?= base_url() ?>template/images/thumb.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>template/images/thumb.jpg" alt="" width="150" height="95" /></a></li>
+							<li><a href="<?= base_url() ?>template/images/thumb2.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>template/images/thumb2.jpg" alt="" width="150" height="95" /></a></li>
+							<li><a href="<?= base_url() ?>template/images/thumb3.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>template/images/thumb3.jpg" alt="" width="150" height="95" /></a></li>
+							<li><a href="<?= base_url() ?>template/images/thumb4.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>template/images/thumb4.jpg" alt="" width="150" height="95" /></a></li>
 						</ul>
 					</article>
 
@@ -232,9 +234,9 @@
 		</div>
 	</div>
 	<footer>
-		<p class="tagline_left">Copyright &copy; 2011 - All Rights Reserved - <a href="#">Domain Name</a></p>
+		<p class="tagline_left">Copyright &copy; 2020 - Tout droit reservé - <a href="<?= base_url() ?>">https://www.abed.com</a></p>
 
-		<p class="tagline_right">Design by <a href="http://www.priteshgupta.com/" title="Pritesh Gupta" target="_blank">PriteshGupta.com</a>
+		<p class="tagline_right">Conçu par <a href="#" title="Daouda S. THERA" target="_blank">PriteshGupta.com</a>
 		</p>
 		<br class="clear" />
 	</footer>
