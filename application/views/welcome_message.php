@@ -67,19 +67,19 @@
 		<div class="container1">
 			<div id="mySlides">
 				<div id="slide1">
-					<img src="<?= base_url() ?>template/images/slider1.jpg" alt="Slide 1 jFlow Plus" />
-					<span><b class="slideheading">First Featured Slide</b><br />Featured Text.....<a href="#" title="Coolness" class="readmore">Read
-							More!</a></span>
+					<img src="<?= base_url() ?>assets/img/abed_section.jpg" alt="Slide 1 jFlow Plus" />
+					<!-- <span><b class="slideheading">First Featured Slide</b><br />Featured Text.....<a href="#" title="Coolness" class="readmore">Read
+							More!</a></span> -->
 				</div>
 				<div id="slide2">
-					<img src="<?= base_url() ?>template/images/slider2.jpg" alt="Slide 2 jFlow Plus" />
-					<span><b class="slideheading">Second Featured Slide</b><br />Featured Text.....<a href="#" title="Coolness" class="readmore">Read
-							More!</a></span>
+					<img src="<?= base_url() ?>assets/img/gal_6.jpg" alt="Slide 2 jFlow Plus" />
+					<!-- <span><b class="slideheading">Second Featured Slide</b><br />Featured Text.....<a href="#" title="Coolness" class="readmore">Read
+							More!</a></span> -->
 				</div>
 				<div id="slide3">
-					<img src="<?= base_url() ?>template/images/slider3.jpg" alt="Slide 3 jFlow Plus" />
-					<span><b class="slideheading">Third Featured Slide</b><br />Featured Text.....<a href="#" title="Coolness" class="readmore">Read
-							More!</a></span>
+					<img src="<?= base_url() ?>assets/img/gal_5.jpg" alt="Slide 3 jFlow Plus" />
+					<!-- <span><b class="slideheading">Third Featured Slide</b><br />Featured Text.....<a href="#" title="Coolness" class="readmore">Read
+							More!</a></span> -->
 				</div>
 			</div>
 
@@ -102,33 +102,28 @@
 				<div class="block">
 					<h2>Qui Sommes Nous</h2>
 
-					<p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget
-						facilis elit sagittis felisi eger id justo maurisus convallicitur. Dapiensociis temper donec
-						auctortortis cumsan et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in.<br />
-						<a href="#" class="read_more">Read More</a>
+					<p>L’Association de Bienfaisance pour l’Education et le Développement (ABED) qui a vu le jour depuis Mai 2016 entend dérouler des activités de sensibilisation au profit de la communauté rufiskoise à Sébikotane. Selon le président Monsieur Abdou Aziz Niang, l’Association de Bienfaisance pour l’Education et le Développement travaille sur quatre axes majeurs que sont l’Education, la Santé, le Développement et le travail d’Equipe.<br />
+						<!-- <a href="#" class="read_more">Read More</a> -->
 					</p>
 				</div>
 				<div class="block">
 					<h2>Qu'est Ce Que Nous Faisons</h2>
 					<ul id="list">
-						<li>Dapiensociis temper donec auctortortis cumsan et curabitur.</li>
-						<li>Condis lorem loborttis leo.</li>
-						<li>Portortornec condimenterdum eget consectetuer condis.</li>
-						<li>Puruselit mauris nulla hendimentesque elit semper nam a sapien urna sempus.</li>
+						<li>Sensibilisation au profit de la communauté rufiskoise à Sébikotane.</li>
+						<li>L’Association appelle à toutes et à tous pour une adhésion de masse..</li>
+						<li>Travailler dans l’union et la joie au profit de la communauté.</li>
+						<li>L’Education, la Santé, le Développement et le travail d’Equipe.</li>
 					</ul>
 					<br />
 					<br />
-					<img src="<?= base_url() ?>template/images/browsers.png" alt="Web Browsers" />
+					<!-- <img src="<?= base_url() ?>template/images/browsers.png" alt="Web Browsers" /> -->
 
 				</div>
 				<div class="block last">
 					<h2>Notre Emplacement</h2>
 
-					<p>Temperinte interdum sempus odio urna eget curabitur semper convallis nunc laoreet. Nullain convallis
-						ris elis vest liberos nis diculis feugiat in rutrum. Suspendreristibulumfaucibulum lobortor quis
-						tortortor ris sapien sce enim et volutpat sus. Urnaretiumorci orci fauctor leo justo nulla cras
-						ridiculum eu id vitae. <br />
-						<a href="#" class="read_more">Read More</a></p>
+					<p>Nos activités de sensibilisation au profit de la communauté rufiskoise à Sébikotane se deroulent partout au Senegal. . <br />
+						<!-- <a href="#" class="read_more">Read More</a></p> -->
 				</div>
 				<div class="clear"></div>
 			</article>
@@ -140,12 +135,12 @@
 				<div class="container_12">
 					<div class="grid">
 						<div class="alignleft">
-							<h3>Like it? Download it for free!</h3>
+							<h3>Association de Bienfaisance pour l’Education et le Développement ABED : Ensemble pour le travail</h3>
 
-							<p>At <a href="http://priteshgupta.com/templates/elegant-press">priteshgupta.com/templates/elegant-press</a>
+							<p>Rétrouver nous sur <a href="https://www.abed.com">www.abed.com</a>
 							</p>
 						</div>
-						<a href="http://www.priteshgupta.com/templates/elegant-press/" class="more" target="_blank">Download</a>
+						<a href="https://www.abed.com" class="more" target="_blank">ABED</a>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -159,25 +154,22 @@
 			<article id="home_featured2">
 				<ul>
 					<li>
-						<div class="imgholder"><a href="<?= base_url() ?>template/images/slide1.jpg" data-gal="prettyPhoto[featured]" title="First Featured Title"><img src="<?= base_url() ?>template/images/featured1.jpg" width="275" height="145" alt="" /></a></div>
-						<h4>First Featured Title</h4>
+						<div class="imgholder"><a href="<?= base_url() ?>assets/img/abed_doc.jpg" data-gal="prettyPhoto[featured]" title="First Featured Title"><img src="<?= base_url() ?>assets/img/abed_doc.jpg" width="275" height="145" alt="" /></a></div>
+						<h4>Récépissé officielle</h4>
 
-						<p>Orciint erdum condimen terdum nulla mcorper elit nam curabitur laoreet met prae senean et iac
-							ulum. Metridiculis cons eque quis iaculum aenean nunc aenean.</p>
+						<p>Association qui a déjà en sa possession son récépissé de reconnaissance officielle.</p>
 					</li>
 					<li>
-						<div class="imgholder"><a href="<?= base_url() ?>template/images/slide2.jpg" data-gal="prettyPhoto[featured]" title="Second Featured Title"><img src="<?= base_url() ?>template/images/featured2.jpg" width="275" height="145" alt="" /></a></div>
-						<h4>Second Featured Title</h4>
+						<div class="imgholder"><a href="<?= base_url() ?>assets/img/gal_3.jpg" data-gal="prettyPhoto[featured]" title="Second Featured Title"><img src="<?= base_url() ?>assets/img/gal_3.jpg" width="275" height="145" alt="" /></a></div>
+						<h4>Plantation des arbres</h4>
 
-						<p>Orciint erdum condimen terdum nulla mcorper elit nam curabitur laoreet met prae senean et iac
-							ulum. Metridiculis cons eque quis iaculum aenean nunc aenean.</p>
+						<p>Les arbres achetés en racines nues doivent être plantés pendant la période de repos végétatif,.</p>
 					</li>
 					<li class="last">
-						<div class="imgholder"><a href="<?= base_url() ?>template/images/slide3.jpg" data-gal="prettyPhoto[featured]" title="Third Featured Title"><img src="<?= base_url() ?>template/images/featured3.jpg" width="275" height="145" alt="" /></a></div>
-						<h4>Third Featured Title</h4>
+						<div class="imgholder"><a href="<?= base_url() ?>assets/img/gal_1.jpg" data-gal="prettyPhoto[featured]" title="Third Featured Title"><img src="<?= base_url() ?>assets/img/gal_1.jpg" width="275" height="145" alt="" /></a></div>
+						<h4>Secours Islamique</h4>
 
-						<p>Orciint erdum condimen terdum nulla mcorper elit nam curabitur laoreet met prae senean et iac
-							ulum. Metridiculis cons eque quis iaculum aenean nunc aenean.</p>
+						<p>Construire des puits pour donner l'accès à l'eau aux plus vulnérables. L'eau est vitale. Pourtant plus de 2 milliards de personnes n'ont pas accès à une eau potable.</p>
 					</li>
 				</ul>
 				<br class="clear" />
@@ -209,20 +201,18 @@
 						<h2>Reseaux Sociaux!</h2>
 
 						<div id="social">
-							<a href="http://twitter.com/priteshgupta" class="s3d twitter"> Twitter <span class="icons twitter"></span> </a>
-							<a href="http://www.facebook.com/priteshgupta" class="s3d facebook"> Facebook <span class="icons facebook"></span> </a>
-							<a href="http://forrst.com/people/priteshgupta" class="s3d forrst"> Forrst <span class="icons forrst"></span> </a>
-							<a href="http://www.flickr.com/photos/priteshgupta" class="s3d flickr"> Flickr <span class="icons flickr"></span> </a>
-							<a href="#" class="s3d designmoo"> Designmoo <span class="icons designmoo"></span> </a>
+							<a href="#" class="s3d twitter"> Twitter <span class="icons twitter"></span> </a>
+							<a href="#" class="s3d facebook"> Facebook <span class="icons facebook"></span> </a>
+							<a href="#" class="s3d flickr"> Youtube <span class="icons flickr"></span> </a>
 						</div>
 					</article>
 					<article class="latestgallery">
-						<h2>Latest Work</h2>
+						<h2>Derniers travaux</h2>
 						<ul>
-							<li><a href="<?= base_url() ?>template/images/thumb.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>template/images/thumb.jpg" alt="" width="150" height="95" /></a></li>
-							<li><a href="<?= base_url() ?>template/images/thumb2.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>template/images/thumb2.jpg" alt="" width="150" height="95" /></a></li>
-							<li><a href="<?= base_url() ?>template/images/thumb3.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>template/images/thumb3.jpg" alt="" width="150" height="95" /></a></li>
-							<li><a href="<?= base_url() ?>template/images/thumb4.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>template/images/thumb4.jpg" alt="" width="150" height="95" /></a></li>
+							<li><a href="<?= base_url() ?>assets/img/gal_6.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>assets/img/gal_6.jpg" alt="" width="150" height="95" /></a></li>
+							<li><a href="<?= base_url() ?>assets/img/gal_7.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>assets/img/gal_7.jpg" alt="" width="150" height="95" /></a></li>
+							<li><a href="<?= base_url() ?>assets/img/gal_8.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>assets/img/gal_8.jpg" alt="" width="150" height="95" /></a></li>
+							<li><a href="<?= base_url() ?>assets/img/gal_9.jpg" data-gal="prettyPhoto[gallery]" title="Title"><img src="<?= base_url() ?>assets/img/gal_9.jpg" alt="" width="150" height="95" /></a></li>
 						</ul>
 					</article>
 
@@ -236,7 +226,7 @@
 	<footer>
 		<p class="tagline_left">Copyright &copy; 2020 - Tout droit reservé - <a href="<?= base_url() ?>">https://www.abed.com</a></p>
 
-		<p class="tagline_right">Conçu par <a href="#" title="Daouda S. THERA" target="_blank">PriteshGupta.com</a>
+		<p class="tagline_right">Conçu par <a href="https://github.com/taalralgo" title="Daouda S. THERA" target="_blank">Daouda THERA</a>
 		</p>
 		<br class="clear" />
 	</footer>
